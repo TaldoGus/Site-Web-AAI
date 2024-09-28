@@ -9,5 +9,5 @@
   
  <h2> ➯ Backlog do Produto </h2> 
 
-![backlog claudio github](https://github.com/user-attachments/assets/a4d5b498-d4ff-4f4f-b1b6-24172417b463)
+![backlog claudio github](https://github.com/user-attachments/assets/f15768d3-18c4-4bad-81b4-bd8b790f3469)
 
