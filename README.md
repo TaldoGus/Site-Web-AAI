@@ -9,5 +9,14 @@
   
  <h2> ➯ Backlog do Produto </h2> 
 
-![backlog claudio github](https://github.com/user-attachments/assets/f15768d3-18c4-4bad-81b4-bd8b790f3469)
+![Backlog Total ENG 2 (HomeSphere Automation)](https://github.com/user-attachments/assets/c87869ad-38b8-46cc-b1ed-c939d10311f0)
+<br>
+<br>
+<br>
+<br>
+
+## ➯ Protótipo ![logofig](https://github.com/user-attachments/assets/15d88aae-0916-4888-8474-9c2af260aacc)
+<br>
+<h3>Link do FIGMA: <h3> 
+https://www.figma.com/proto/nqosnPwiCcfjUBpKQd0I42/API-3---SEMESTRE?node-id=24-5&t=Jp8r0mNTQ2El6JWK-1 
 
