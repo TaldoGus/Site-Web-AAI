@@ -18,5 +18,5 @@
 ## ➯ Protótipo ![logofig](https://github.com/user-attachments/assets/15d88aae-0916-4888-8474-9c2af260aacc)
 <br>
 <h3>Link do FIGMA: <h3> 
-https://www.figma.com/proto/nqosnPwiCcfjUBpKQd0I42/API-3---SEMESTRE?node-id=24-5&t=Jp8r0mNTQ2El6JWK-1 
+<h5>https://www.figma.com/proto/0SDxAuxG0iU5Vx5h5JriS3/MINI-API-CLAUDIO?node-id=18-801&node-type=canvas&t=7fwwQVM0YyWIz6Hr-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A801<h5>
 
