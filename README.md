@@ -2,7 +2,7 @@
 <h1> FATEC SJC - 3º Semestre ADS - HomeSphere Automation</h1>
 <h3>➯ Título do Projeto: Desenvolvimento de um curso online de capacitação para clientes - (Atividade Avaliativa Individual) </h3>
 <h3> Objetivo do Projeto:</h3> 
-<h4> O objetivo deste projeto é desenvolver um curso online de capacitação para clientes da empresa HomeSphere Automation, a fim de melhorar o conhecimento e habilidades em relação ao produto ou serviço oferecido. O curso deve incluir módulos interativos, recursos de feedback e um sistema de avaliação.</h4>  
+<h4> O objetivo deste projeto é desenvolver um curso online de capacitação para clientes da empresa HomeSphere Automation, a fim de melhorar o conhecimento e habilidades em relação ao produto ou serviço oferecido. O curso deve incluir módulos interativos, recursos de feedback e um sistema de avaliação, ou seja a fim de cada módulo existe um QUIZ para testar conhecimento do usuário (funcionalidade restrita apenas ao frontend).</h4>  
   
 <br>
 <br> 
