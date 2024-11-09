@@ -1,0 +1,74 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+  }
+
+  
+  
+  .definition {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .about-us {
+    background: radial-gradient(circle,#0099A5, #19313f); /* Degradê radial de azul para roxo */
+    color: #fff;
+    color: white;
+    padding: 40px;
+    margin: 20px 0;
+  }
+  
+  /* Estilos para a descrição do curso */
+  .course-info {
+    margin: 20px 0;
+  }
+  
+  .course-description {
+    margin-bottom: 20px;
+  }
+  
+  .course-description ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-description ul li {
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .course-modules {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .module {
+    text-align: center;
+  }
+  
+  .module img {
+    width: 100px;
+  }
+  
+  .module button {
+    margin-top: 10px;
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .home-footer {
+    margin-top: 30px;
+    background-color: #1b1e23;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+  }
+  
