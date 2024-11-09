@@ -25,6 +25,11 @@ html, body {
   color: #fff;
   padding: 40px;
   margin: 20px 0;
+  h2,p{text-shadow: 1px 1px 0 black,
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px 1px 0 black;;}
+    p{font-size: 18px;}
 }
 
 /* Estilos para a descrição do curso */
@@ -64,6 +69,7 @@ html, body {
 
 .module img {
   width: 100px;
+  padding-top: 20%;
 }
 
 .module button {

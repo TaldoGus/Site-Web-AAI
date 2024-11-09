@@ -18,8 +18,7 @@ const Home = () => {
               <h2>Quem Somos :</h2>
           </div>
           <p>
-            Nós da HomeSphere Automation somos uma empresa em crescimento no ramo de automação residencial. 
-            Estamos buscando expandir nossa base de clientes com maior eficiência tecnológica e energética para ambientes domésticos.
+          Nós da HomeSphere Automation somos uma empresa em crescimento fazendo parte do ramo de automação residencial,  disponibilizando nossas tecnologias e produtos buscamos no mercado regional e futuramente nacional  expandir nossa base de cliente trazendo maior eficiência tanto tecnológica quanto energética para ambientes domésticos.
           </p>
         </section>
 
