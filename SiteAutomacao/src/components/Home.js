@@ -68,11 +68,6 @@ const Home = () => {
           </div>
         </section>
       </div>
-
-      {/* Rodapé fora do container */}
-      <footer className="home-footer">
-        <p>&copy; 2023 Todos os direitos reservados a HomeSphere Automation</p>
-      </footer>
     </>
   );
 };

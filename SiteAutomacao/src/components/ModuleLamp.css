@@ -1,74 +1,53 @@
-/* Estilos gerais */
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .module-lamp-container {
-    padding: 20px;
-  }
-  
-  /* Navbar */
-  nav {
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  /* Conteúdo do módulo */
-  .module-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .card {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 10px;
-    width: 300px;
-    text-align: center;
-  }
-  
-  .card img, .card video {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-  
-  /* Quiz */
-  .quiz {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .question {
-    margin-bottom: 10px;
-  }
-  
-  .options {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .option {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 5px;
-    cursor: pointer;
-    width: 200px;
-    transition: background-color 0.3s ease;
-  }
-  
-  /* Feedback visual */
-  .correct {
-    background-color: lightgreen;
-  }
-  
-  .incorrect {
-    background-color: lightpink;
-  }
-  
+/* Styles scoped to ModuleLamp */
+.module-lamp-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.module-lamp-card {
+  background-color: #0099A5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.module-lamp h1, .module-lamp h2, .module-lamp h3 {
+  text-align: center;
+  color: #19313f;
+}
+
+.quiz-section {
+  margin-top: 30px;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.quiz-option {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.quiz-option:hover {
+  background-color: #e0e0e0;
+}
+
+.quiz-option.correct {
+  background-color: #00ff00;
+}
+
+.quiz-option.incorrect {
+  background-color: #ff4d4d;
+}

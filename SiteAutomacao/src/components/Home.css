@@ -75,20 +75,16 @@ html, body {
 .module button {
   margin-top: 10px;
   background-color: #00ff00;
-  color: #000;
-  border: none;
+  color: #ffffff;
+  border: black 1px solid;
+  text-shadow: 1px 1px 0 black,
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px 1px 0 black;
+  font-size: 16px;
+  font-family:fantasy;
   padding: 10px;
   cursor: pointer;
 }
 
-/* Ajustes para o rodapé */
-.home-footer {
-  background-color: #1b1e23;
-  color: #fff;
-  padding: 20px;
-  width: 100%;
-  position: relative;
-  bottom: 0;
-  text-align: center;
-  
-}
+

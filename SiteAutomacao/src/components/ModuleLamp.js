@@ -1,56 +1,70 @@
 import React, { useState } from 'react';
 import './ModuleLamp.css';
 
-const ModuleLamp = () => {
-  const [selectedOption, setSelectedOption] = useState(null);
-  
-  const handleAnswerClick = (isCorrect) => {
-    setSelectedOption(isCorrect);
+function ModuleLamp() {
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleAnswerClick = (answerIndex) => {
+    if (!submitted) {
+      setSelectedAnswer(answerIndex);
+      setSubmitted(true);
+    } else {
+      // Permite que o usuário altere a resposta
+      setSelectedAnswer(answerIndex);
+    }
+  };
+
+  const resetQuiz = () => {
+    setSelectedAnswer(null);
+    setSubmitted(false);
   };
 
   return (
     <div className="module-lamp-container">
-      <header>
-        <nav>
-          {/* Navbar - pode ser herdada de um componente pai */}
-        </nav>
-      </header>
+      <h1>Módulo 1 - Lâmpada Inteligente</h1>
 
-      <main>
-        <section className="module-content">
-          <div className="card">
-            <h2>Configuração de Lâmpadas Inteligentes</h2>
-            <p>...</p>
-            <img src="imagem1.jpg" alt="Configuração de Lâmpadas Inteligentes" />
-            <video controls>
-              <source src="video1.mp4" type="video/mp4" />
-            </video>
-          </div>
-        </section>
+      <div className="module-lamp-card">
+        <h2>Configuração de Lâmpadas Inteligentes</h2>
+        <p>*Aprenda a configurar lâmpadas inteligentes com exemplos práticos*</p>
+      </div>
 
-        <section className="quiz">
-          <h2>Quiz</h2>
-          <div className="question">
-            <p>Qual é o primeiro passo para configurar sua lâmpada inteligente?</p>
-            <div className="options">
-              <button
-                className={`option ${selectedOption === false ? 'incorrect' : ''}`}
-                onClick={() => handleAnswerClick(false)}
-              >
-                Opção A
-              </button>
-              <button
-                className={`option ${selectedOption === true ? 'correct' : ''}`}
-                onClick={() => handleAnswerClick(true)}
-              >
-                Opção B
-              </button>
+      <div className="module-lamp-card">
+        <h2>1ª Etapa - Instalação manual</h2>
+        <p>Como instalar a lâmpada, os cuidados ao escolher o produto e os tipos de lâmpadas smart.</p>
+      </div>
+
+      <div className="module-lamp-card">
+        <h2>2ª Etapa - Ligando e conectando</h2>
+        <p>Como ligar e conectar a lâmpada ao smartphone para controlá-la com um app e integrá-la a outros dispositivos.</p>
+      </div>
+
+      <div className="module-lamp-card">
+        <h2>Configuração de Lâmpadas Inteligentes</h2>
+        <p>Entenda como conectar as lâmpadas com o Wi-Fi e como usá-las via comandos de voz.</p>
+      </div>
+
+      <div className="quiz-section">
+        <h3>Quiz - Teste o que aprendeu</h3>
+        <p>1. Qual o primeiro passo para configurar uma lâmpada inteligente?</p>
+
+        <div className="quiz-options">
+          {['A', 'B', 'C', 'D'].map((option, index) => (
+            <div
+              key={index}
+              className={`quiz-option ${submitted ? (index === 1 ? 'correct' : 'incorrect') : ''}`}
+              onClick={() => handleAnswerClick(index)}
+            >
+              {option}. {index === 0 ? 'Instalar a lâmpada' : index === 1 ? 'Ligar e conectar ao Wi-Fi' : 'Outra opção'}
             </div>
-          </div>
-        </section>
-      </main>
+          ))}
+        </div>
+
+        {/* Botão para resetar o quiz */}
+        <button onClick={resetQuiz}>Refazer Quiz</button>
+      </div>
     </div>
   );
-};
+}
 
 export default ModuleLamp;
