@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Usando Routes em vez de Switch
 import FeedbackForm from './components/FeedbackForm';
 import Home from './components/Home'; // Importando a página Home
+import ModuleLamp from './components/ModuleLamp'; // Import módulo de lâmpada
+
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
           <Route path="/" element={<Home />} /> {/* Página Home */}
           <Route path="/faq" element={<FeedbackForm />} /> {/* Página FAQ */}
           <Route path="/feedback" element={<FeedbackForm />} /> {/* Página Feedback */}
+          <Route path="/module-lamp" element={<ModuleLamp />} /> {/* Página Módulo Lamp */}
         </Routes>
       </div>
     </Router>
